@@ -1,0 +1,33 @@
+html {
+	background-color: LIGHTGREY;
+}
+
+p {
+	background: GREY;
+	color: WHITE;
+	padding: 5;
+}
+
+input {
+	padding: 2;
+}
+
+textarea {
+	background-color: DARKGREY;
+	color: WHITE;
+	text-align: CENTER;
+	padding: 20;
+	margin: 5;
+	font-size: 18;
+	font-family: Capitals,Impact,fantasy;
+	font-variant: small-caps;
+}
+
+.framed {
+	background-color: WHITE;
+	background-image: src: url('frame-thick.png');
+}
+
+.archivedAttributes {
+	border-image: src: url('frame-thick.png');
+}
