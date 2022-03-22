@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="src/styles.css">
+	<title>Item Randomizer</title>
+	
+	<body>
+		
+		<center>
+			
+			<h1>Item Randomizer</h1>
+			
+			<p>This program allows you to generate completely random stats and name. Input a .RAND file to input the possible outcomes.</p>
+			
+			Maximum Prefixes: <input class='framed' id='maxnames' value='2' size='1'>
+			<br>Maximum Stats: <input class='framed' id='maxstats' value='4' size='1'>
+			<br><input class='framed' id='fileinput' type='file' files='*/rand' multiple>
+			
+			<br><br><button onclick='randomize()'>Randomize</button>
+			<br><textarea id='output' readonly='true' cols='39' rows='20'>abcABC123.!?</textarea>
+			
+			<p>Use the included example .rand file to experiment.</p>
+			
+		</center>
+		
+	</body>
+	
+	<script src="src/rand.js"></script>
+</html>
