@@ -35,19 +35,21 @@ Increases maximum health by +@rand100r5%
 -@rand100r5% damage penalty
 Gives team crits on kill for @rand50 seconds
 @rand100r5% chance to freeze enemies on hit
-All mini-crits become full-crits
 Increases recoil damage by +@rand100r5%
--@rand100r5% damage vs Buildings
-+@rand100r5% damage vs Buildings
+@pn@rand100r5% damage vs Buildings
 Cyberbullying increased by +@rand100r5%
--@rand100r5% bloom radius
+Shotgun\@pn@rand100r5% bloom radius
 No random crits
-+@rand100r5% health on kill
-+@rand100r5% speed on kill
-+@rand50 fire duration to yourself
+@pn#r255% health #ok
+@pn#r255% speed #ok
+@pn@rand50 fire duration to yourself
 ASimpleBeginner bane increases by +@rand100r5%
 +@rand100r5% chance for mini-crits when held
-+@rand100r5% blast radius
-+@rand100r5% chance for an existential crisis
-All full-crits become mini-crits (unless otherwise)
-+@rand100% chance to explode on hit
+Rocket Launcher,Missile Launcher\+@rand100r5% blast radius
+@pn@rand100r5% chance for an existential crisis
+#fullmini
+@pn@rand100% chance to explode on hit
+-
+macro ok on kill
+rand r255 255
+randc fullmini All full-crits become mini-crits,All mini-crits become full-crits
